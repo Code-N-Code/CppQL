@@ -87,7 +87,8 @@ id   | name
 ```
 CppQL/
 │── assets/
-│   └── banner.png   # Banner image for README
+│   └── images/
+│       └── banner.png   # Banner image for README
 │── src/
 │   └── main.cpp     # Entry point
 │── include/         # Header files (future use)
