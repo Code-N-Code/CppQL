@@ -12,4 +12,13 @@ add_executable(CppQL
         src/repl.cpp
         include/repl.h
         src/command_processor.cpp
-        include/command_processor.h)
+        include/command_processor.h
+        include/tokenizer/Token.h
+        include/tokenizer/Tokenizer.h
+        src/tokenizer/Tokenizer.cpp)
+
+# Adding include directory for public headers
+target_include_directories(CppQL
+        PUBLIC
+        ${PROJECT_SOURCE_DIR}/include
+)
